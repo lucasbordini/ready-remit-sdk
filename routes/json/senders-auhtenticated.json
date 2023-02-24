@@ -1,0 +1,103 @@
+{
+    "senderId": "8966b30c-2885-40ee-ae36-92b5f8266293",
+    "senderType": "PERSON",
+    "firstName": "Federico",
+    "lastName": "Washington",
+    "kycStatus": "PASSED",
+    "fields": [
+        {
+            "id": "FIRST_NAME",
+            "name": "First name",
+            "type": "TEXT",
+            "value": "Federico"
+        },
+        {
+            "id": "LAST_NAME",
+            "name": "Last name",
+            "type": "TEXT",
+            "value": "Washington"
+        },
+        {
+            "id": "ADDRESS_LINE_1",
+            "name": "Address line 1",
+            "type": "TEXT",
+            "value": "7688 Orlando Av"
+        },
+        {
+            "id": "ADDRESS_STATE",
+            "name": "State",
+            "type": "DROPDOWN",
+            "value": "NY"
+        },
+        {
+            "id": "ADDRESS_CITY",
+            "name": "City",
+            "type": "TEXT",
+            "value": "AGUILA"
+        },
+        {
+            "id": "ADDRESS_ZIP",
+            "name": "Zip code",
+            "type": "TEXT",
+            "value": "66000"
+        },
+        {
+            "id": "ADDRESS_COUNTRY",
+            "name": "Country",
+            "type": "DROPDOWN",
+            "value": "USA"
+        },
+        {
+            "id": "NATIONALITY",
+            "name": "Country of incorporation",
+            "type": "DROPDOWN",
+            "value": "USA"
+        },
+        {
+            "id": "PHONE_NUMBER",
+            "name": "Phone number",
+            "type": "PHONE_NUMBER",
+            "value": {
+                "number": "19315559786",
+                "countryIso3Code": "USA",
+                "countryPhoneCode": 1
+            }
+        },
+        {
+            "id": "ID_NUMBER",
+            "name": "ID number",
+            "type": "TEXT",
+            "value": "111552223"
+        },
+        {
+            "id": "ID_TYPE",
+            "name": "ID type",
+            "type": "DROPDOWN",
+            "value": "SSN"
+        },
+        {
+            "id": "EMAIL_ADDRESS",
+            "name": "Email",
+            "type": "TEXT",
+            "value": "fedewashi@example.com"
+        },
+        {
+            "id": "BIRTH_COUNTRY",
+            "name": "Country of birth",
+            "type": "DROPDOWN",
+            "value": "USA"
+        },
+        {
+            "id": "ID_COUNTRY",
+            "name": "ID issuing country",
+            "type": "DROPDOWN",
+            "value": "USA"
+        },
+        {
+            "id": "DATE_OF_BIRTH",
+            "name": "Date of Birth",
+            "type": "DATE",
+            "value": "1978-08-06"
+        }
+    ]
+}

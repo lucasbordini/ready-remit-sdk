@@ -1,0 +1,116 @@
+{
+    "fieldSets": [
+        {
+            "fieldSetId": "CASH_PICKUP_FIELDS",
+            "fieldSetName": "Cash Pickup Fields",
+            "fields": [
+                {
+                    "fieldType": "DROPDOWN",
+                    "options": [
+                        {
+                            "id": "M0001",
+                            "name": "AGUASCALIENTES"
+                        },
+                        {
+                            "id": "M0002",
+                            "name": "BAJA CALIFORNIA NORTE"
+                        },
+                        {
+                            "id": "M0003",
+                            "name": "BAJA CALIFORNIA SUR"
+                        }
+                    ],
+                    "fieldId": "PAYER_STATE_PROVINCE",
+                    "name": "State",
+                    "isRequired": false,
+                    "placeholderText": "-select-",
+                    "sortOrder": 1
+                },
+                {
+                    "fieldType": "DROPDOWN",
+                    "options": [
+                        {
+                            "id": "59993",
+                            "name": "AGUASCALIENTES"
+                        },
+                       
+                        {
+                            "id": "85748",
+                            "name": "MIRAVALLE"
+                        },
+                        {
+                            "id": "76701",
+                            "name": "PALO ALTO"
+                        }
+                    ],
+                    "fieldId": "PAYER_CITY",
+                    "name": "City",
+                    "isRequired": false,
+                    "placeholderText": "-select-",
+                    "sortOrder": 2
+                },
+                {
+                    "fieldType": "DROPDOWN",
+                    "options": [
+                        {
+                            "id": "ME12",
+                            "name": "INTER-MEX"
+                        },
+                        {
+                            "id": "ME45",
+                            "name": "BANORTE"
+                        },
+                        {
+                            "id": "ME57",
+                            "name": "AIRPAK"
+                        },
+                        {
+                            "id": "ME63",
+                            "name": "WALMART "
+                        }
+                    ],
+                    "fieldId": "PAYER",
+                    "name": "Payer",
+                    "isRequired": false,
+                    "placeholderText": "-select-",
+                    "sortOrder": 3
+                },
+                {
+                    "fieldType": "DROPDOWN",
+                    "options": [
+                        {
+                            "id": "ME120005",
+                            "name": "Payer One",
+                            "description": "LIMIT 500 USD"
+                        },
+                        {
+                            "id": "ME122938",
+                            "name": "Payer Two"
+                        }
+                    ],
+                    "fieldId": "PAYER_LOCATION",
+                    "name": "Payer Location",
+                    "isRequired": true,
+                    "placeholderText": "-select-",
+                    "sortOrder": 4
+                }
+            ]
+        },
+        {
+            "fieldSetId": "TRANSFER_FIELDS",
+            "fieldSetName": "Transfer Fields",
+            "fields": [
+                {
+                    "fieldType": "TEXT",
+                    "minLength": 10,
+                    "maxLength": 30,
+                    "fieldId": "CARD_PROXY_NUMBER",
+                    "name": "Card Proxy Number",
+                    "hintText": "Insert The Card Proxy Number",
+                    "isRequired": false,
+                    "placeholderText": "-select-"
+                }
+            ]
+        }
+    ]
+}

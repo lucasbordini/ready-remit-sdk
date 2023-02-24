@@ -1,0 +1,53 @@
+{
+    "fieldSets": [
+        {
+            "fieldSetId": "BANK_DETAILS",
+            "fieldSetName": "Bank Details",
+            "fields": [
+                {
+                    "fieldType": "TEXT",
+                    "fieldId": "BANK_NAME",
+                    "name": "Bank name",
+                    "hintText": "Enter the complete name of the recipient´s bank",
+                    "isRequired": true,
+                    "placeholderText": "Bank name"
+                },
+                {
+                    "fieldType": "TEXT",
+                    "minLength": 4,
+                    "maxLength": 17,
+                    "fieldId": "BANK_ACCOUNT_NUMBER",
+                    "name": "Routing Number",
+                    "isRequired": true,
+                    "placeholderText": "Routing Number"
+                },
+                {
+                    "fieldType": "TEXT",
+                    "fieldId": "BANK_BRANCH",
+                    "name": "Bank branch",
+                    "isRequired": true,
+                    "placeholderText": "Bank branch"
+                },
+                {
+                    "fieldType": "DROPDOWN",
+                    "options": [
+                        {
+                            "id": "C",
+                            "name": "Checking"
+                        },
+                        {
+                            "id": "P",
+                            "name": "Savings"
+                        }
+                    ],
+                    "minLength": 1,
+                    "maxLength": 3,
+                    "fieldId": "BANK_ACCOUNT_TYPE",
+                    "name": "Type of account",
+                    "isRequired": true,
+                    "placeholderText": "Type of account"
+                }
+            ]
+        }
+    ]
+}

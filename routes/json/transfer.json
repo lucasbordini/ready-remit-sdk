@@ -1,0 +1,248 @@
+{
+    "transferId": "2517e348-95c8-45e3-93c8-451d0e6e8222",
+    "confirmationNumber": "33TF112537060",
+    "createdAt": "2023-02-24T15:38:40.469104Z",
+    "quote": {
+        "sendAmount": {
+            "value": 1500,
+            "currency": {
+                "name": "US Dollar",
+                "iso3Code": "USD",
+                "symbol": "$",
+                "decimalPlaces": 2,
+                "roundDirection": "STANDARD"
+            }
+        },
+        "receiveAmount": {
+            "value": 765,
+            "currency": {
+                "name": "Philippine peso",
+                "iso3Code": "PHP",
+                "symbol": "₱",
+                "decimalPlaces": 0,
+                "roundDirection": "STANDARD"
+            }
+        },
+        "rate": 50.968134,
+        "adjustments": [
+            {
+                "label": "Transfer Fee",
+                "amount": {
+                    "value": 583,
+                    "currency": {
+                        "name": "US Dollar",
+                        "iso3Code": "USD",
+                        "symbol": "$",
+                        "decimalPlaces": 2,
+                        "roundDirection": "STANDARD"
+                    }
+                }
+            }
+        ],
+        "totalCost": {
+            "value": 2083,
+            "currency": {
+                "name": "US Dollar",
+                "iso3Code": "USD",
+                "symbol": "$",
+                "decimalPlaces": 2,
+                "roundDirection": "STANDARD"
+            }
+        },
+        "destinationCountryISO3Code": "PHL",
+        "destinationCurrencyISO3Code": "PHP",
+        "sourceCurrencyIso3Code": "USD",
+        "destinationCountry": {
+            "name": "Philippines",
+            "iso2Code": "PH",
+            "iso3Code": "PHL",
+            "phoneCode": 63
+        },
+        "transferMethod": "CASH_PICKUP",
+        "disclosures": [],
+        "deliverySLA": {
+            "id": "TEN_MINUTES",
+            "name": "Your money will be available within 10 minutes."
+        }
+    },
+    "senderDetails": {
+        "senderId": "aa4365c8-1ab8-4589-a33c-72928795b971",
+        "senderType": "PERSON",
+        "firstName": "Daniel",
+        "lastName": "Fix",
+        "fields": [
+            {
+                "id": "FIRST_NAME",
+                "name": "First name",
+                "sortOrder": 1,
+                "type": "TEXT",
+                "value": "Daniel"
+            },
+            {
+                "id": "LAST_NAME",
+                "name": "Last name",
+                "sortOrder": 2,
+                "type": "TEXT",
+                "value": "Fix"
+            },
+            {
+                "id": "EMAIL_ADDRESS",
+                "name": "Email",
+                "sortOrder": 3,
+                "type": "TEXT",
+                "value": "danfix@example.com"
+            },
+            {
+                "id": "PHONE_NUMBER",
+                "name": "Phone number",
+                "sortOrder": 4,
+                "type": "PHONE_NUMBER",
+                "value": {
+                    "number": "3215551091",
+                    "countryIso3Code": "USA",
+                    "countryPhoneCode": 1
+                }
+            },
+            {
+                "id": "ID_TYPE",
+                "name": "ID type",
+                "sortOrder": 5,
+                "type": "DROPDOWN",
+                "value": "SSN"
+            },
+            {
+                "id": "ID_NUMBER",
+                "name": "ID number",
+                "sortOrder": 6,
+                "type": "TEXT",
+                "value": "111222333"
+            },
+            {
+                "id": "ID_COUNTRY",
+                "name": "ID issuing country",
+                "sortOrder": 7,
+                "type": "DROPDOWN",
+                "value": "USA"
+            },
+            {
+                "id": "BIRTH_COUNTRY",
+                "name": "Country of birth",
+                "sortOrder": 10,
+                "type": "DROPDOWN",
+                "value": "USA"
+            },
+            {
+                "id": "DATE_OF_BIRTH",
+                "name": "Date of Birth",
+                "sortOrder": 11,
+                "type": "DATE",
+                "value": "1991-01-01"
+            },
+            {
+                "id": "NATIONALITY",
+                "name": "Country of incorporation",
+                "sortOrder": 12,
+                "type": "DROPDOWN",
+                "value": "USA"
+            },
+            {
+                "id": "ADDRESS_LINE_1",
+                "name": "Address line 1",
+                "sortOrder": 13,
+                "type": "TEXT",
+                "value": "3000 Stillhouse Creek Dr"
+            },
+            {
+                "id": "ADDRESS_LINE_2",
+                "name": "Address line 2",
+                "sortOrder": 14,
+                "type": "TEXT",
+                "value": "Apt 100"
+            },
+            {
+                "id": "ADDRESS_CITY",
+                "name": "City",
+                "sortOrder": 15,
+                "type": "TEXT",
+                "value": "Atlanta"
+            },
+            {
+                "id": "ADDRESS_STATE",
+                "name": "State",
+                "sortOrder": 16,
+                "type": "DROPDOWN",
+                "value": "GA"
+            },
+            {
+                "id": "ADDRESS_COUNTRY",
+                "name": "Country",
+                "sortOrder": 17,
+                "type": "DROPDOWN",
+                "value": "USA"
+            },
+            {
+                "id": "ADDRESS_ZIP",
+                "name": "Zip code",
+                "sortOrder": 18,
+                "type": "TEXT",
+                "value": "30339"
+            }
+        ]
+    },
+    "recipientDetails": {
+        "recipientId": "2d58bfcf-0287-4151-8d01-5e9d56f95b13",
+        "senderId": "aa4365c8-1ab8-4589-a33c-72928795b971",
+        "recipientType": "PERSON",
+        "firstName": "Juan",
+        "lastName": "Alberto",
+        "fields": [
+            {
+                "id": "ID_NUMBER",
+                "name": "ID number",
+                "type": "TEXT",
+                "value": "11222333345"
+            },
+            {
+                "id": "LAST_NAME",
+                "name": "Last name",
+                "type": "TEXT",
+                "value": "Alberto"
+            },
+            {
+                "id": "FIRST_NAME",
+                "name": "First name",
+                "type": "TEXT",
+                "value": "Juan"
+            },
+            {
+                "id": "PHONE_NUMBER",
+                "name": "Mobile phone number",
+                "type": "PHONE_NUMBER",
+                "value": {
+                    "number": "19082349786",
+                    "countryIso3Code": "USA",
+                    "countryPhoneCode": 1
+                }
+            },
+            {
+                "id": "ADDRESS_COUNTRY",
+                "name": "Country",
+                "type": "DROPDOWN",
+                "value": "USA"
+            }
+        ]
+    },
+    "fields": [],
+    "disclaimers": [],
+    "customer": {
+        "name": "BWP Shipping",
+        "addressLine1": "California St. 0001",
+        "addressCity": "Los Angeles",
+        "addressState": "CA",
+        "addressCountry": "USA",
+        "addressZipCode": "150001",
+        "phoneNumber": "13105555584",
+        "website": "www.bwp-shipping.com"
+    },
+    "dateAvailable": "2/24/2023"
+}

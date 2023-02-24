@@ -1,0 +1,12 @@
+[
+    {
+        "name": "United Kingdom",
+        "iso3Code": "GBR",
+        "iso2Code": "GB"
+    },
+    {
+        "name": "United States",
+        "iso3Code": "USA",
+        "iso2Code": "US"
+    }
+]

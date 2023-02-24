@@ -1,0 +1,108 @@
+{
+    "recipients": [
+        {
+            "recipientId": "00092216-9c5a-445f-bb32-d652713259fb",
+            "senderId": "8966b30c-2885-40ee-ae36-92b5f8266293",
+            "recipientType": "PERSON",
+            "firstName": "John",
+            "lastName": "Doe",
+            "fields": [
+                {
+                    "id": "LAST_NAME",
+                    "name": "Last name",
+                    "type": "TEXT",
+                    "value": "Doe"
+                },
+                {
+                    "id": "FIRST_NAME",
+                    "name": "First name",
+                    "type": "TEXT",
+                    "value": "John"
+                },
+                {
+                    "id": "PHONE_NUMBER",
+                    "name": "Mobile phone number",
+                    "type": "PHONE_NUMBER",
+                    "value": {
+                        "number": "888444444",
+                        "countryIso3Code": "MEX",
+                        "countryPhoneCode": 52
+                    }
+                },
+                {
+                    "id": "ADDRESS_COUNTRY",
+                    "name": "Country",
+                    "type": "DROPDOWN",
+                    "value": "ARG"
+                }
+            ],
+            "recipientAccounts": [
+                {
+                    "dstCurrencyIso3Code": "USD",
+                    "dstCountryIso3Code": "USA",
+                    "transferMethod": "BANK_ACCOUNT",
+                    "recipientAccountId": "6c6e387b-552f-42ee-af38-ebb18c288814",
+                    "accountNumber": "278593857484883616",
+                    "fields": [
+                        {
+                            "id": "BANK_BRANCH",
+                            "name": "Bank name",
+                            "type": "DROPDOWN",
+                            "value": "4445612"
+                        },
+                        {
+                            "id": "BANK_NAME",
+                            "name": "Bank name",
+                            "type": "TEXT",
+                            "value": "BANCA MIFEL SA"
+                        },
+                        {
+                            "id": "BANK_ACCOUNT_NUMBER",
+                            "name": "Clabe",
+                            "type": "TEXT",
+                            "value": "278593857484883616"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "recipientId": "008200cf-aa81-4af0-82ee-4be796ec0ba1",
+            "senderId": "8966b30c-2885-40ee-ae36-92b5f8266293",
+            "recipientType": "PERSON",
+            "firstName": "Jane",
+            "lastName": "Doe",
+            "fields": [
+                {
+                    "id": "LAST_NAME",
+                    "name": "Last name",
+                    "type": "TEXT",
+                    "value": "Doe"
+                },
+                {
+                    "id": "FIRST_NAME",
+                    "name": "First name",
+                    "type": "TEXT",
+                    "value": "Jane"
+                },
+                {
+                    "id": "PHONE_NUMBER",
+                    "name": "Mobile phone number",
+                    "type": "PHONE_NUMBER",
+                    "value": {
+                        "number": "5567676767",
+                        "countryIso3Code": "MEX",
+                        "countryPhoneCode": 52
+                    }
+                },
+                {
+                    "id": "ADDRESS_COUNTRY",
+                    "name": "Country",
+                    "type": "DROPDOWN",
+                    "value": "MEX"
+                }
+            ],
+            "recipientAccounts": []
+        }
+    ]
+}

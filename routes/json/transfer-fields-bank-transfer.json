@@ -1,0 +1,88 @@
+{
+    "fieldSets": [
+        {
+            "fieldSetId": "TRANSFER_FIELDS",
+            "fieldSetName": "Transfer Fields",
+            "fields": [
+                {
+                    "fieldType": "TEXT",
+                    "minLength": 10,
+                    "maxLength": 30,
+                    "fieldId": "CARD_PROXY_NUMBER",
+                    "name": "Card Proxy Number",
+                    "hintText": "Insert The Card Proxy Number",
+                    "isRequired": true,
+                    "placeholderText": "-select-"
+                },
+                {
+                    "fieldType": "DROPDOWN",
+                    "options": [
+                        {
+                            "id": "1",
+                            "name": "FAMILY MAINTENANCE"
+                        },
+                        {
+                            "id": "2",
+                            "name": "EDUCATION"
+                        },
+                        {
+                            "id": "3",
+                            "name": "MEDICAL"
+                        },
+                        {
+                            "id": "6",
+                            "name": "PERSONAL"
+                        },
+                        {
+                            "id": "7",
+                            "name": "Business"
+                        },
+                        {
+                            "id": "9",
+                            "name": "INVESTMENT"
+                        },
+                        {
+                            "id": "14",
+                            "name": "TRADES"
+                        },
+                        {
+                            "id": "25",
+                            "name": "HOTEL ACCOMODATIONS"
+                        },
+                        {
+                            "id": "26",
+                            "name": "TRAVEL AGENT"
+                        },
+                        {
+                            "id": "29",
+                            "name": "TAX PAYMENT"
+                        },
+                        {
+                            "id": "33",
+                            "name": "BILL PAYMENT"
+                        },
+                        {
+                            "id": "43",
+                            "name": "TRADE RELATED SERVICES"
+                        },
+                        {
+                            "id": "44",
+                            "name": "TRADE REALISATION OF EXPORT BILLS"
+                        },
+                        {
+                            "id": "45",
+                            "name": "TRADE ADVANCE RECEIPT AGAINST EXPORT"
+                        }
+                    ],
+                    "minLength": 1,
+                    "maxLength": 40,
+                    "fieldId": "REMITTANCE_PURPOSE",
+                    "name": "Purpose of remittance",
+                    "hintText": "Insert the purpose of this remittance",
+                    "isRequired": true,
+                    "placeholderText": "-select-"
+                }
+            ]
+        }
+    ]
+}

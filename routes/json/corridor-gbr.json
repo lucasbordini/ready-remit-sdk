@@ -1,0 +1,54 @@
+[
+    {
+        "destinationCountry": {
+            "name": "United Kingdom",
+            "iso3Code": "GBR",
+            "iso2Code": "GB"
+        },
+        "sourceCurrency": [
+            {
+                "name": "US Dollar",
+                "iso3Code": "USD",
+                "symbol": "$",
+                "decimalPlaces": 2,
+                "roundDirection": "STANDARD"
+            }
+        ],
+        "destinationCurrency": [
+            {
+                "name": "British pound",
+                "iso3Code": "GBP",
+                "symbol": "£",
+                "decimalPlaces": 2,
+                "roundDirection": "STANDARD"
+            }
+        ],
+        "transferMethod": "PUSH_TO_CARD"
+    },
+    {
+        "destinationCountry": {
+            "name": "United Kingdom",
+            "iso3Code": "GBR",
+            "iso2Code": "GB"
+        },
+        "sourceCurrency": [
+            {
+                "name": "US Dollar",
+                "iso3Code": "USD",
+                "symbol": "$",
+                "decimalPlaces": 2,
+                "roundDirection": "STANDARD"
+            }
+        ],
+        "destinationCurrency": [
+            {
+                "name": "British pound",
+                "iso3Code": "GBP",
+                "symbol": "£",
+                "decimalPlaces": 2,
+                "roundDirection": "STANDARD"
+            }
+        ],
+        "transferMethod": "BANK_ACCOUNT"
+    }
+]
