@@ -8,5 +8,15 @@
         "name": "United States",
         "iso3Code": "USA",
         "iso2Code": "US"
+    },
+    {
+        "name": "France",
+        "iso3Code": "FRA",
+        "iso2Code": "FR"
+    },
+    {
+        "name": "Mexico",
+        "iso3Code": "MEX",
+        "iso2Code": "MX"
     }
 ]

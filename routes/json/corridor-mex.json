@@ -1,0 +1,54 @@
+[
+    {
+        "destinationCountry": {
+            "name": "Mexico",
+            "iso3Code": "MEX",
+            "iso2Code": "MX"
+        },
+        "sourceCurrency": [
+            {
+                "name": "US Dollar",
+                "iso3Code": "USD",
+                "symbol": "$",
+                "decimalPlaces": 2,
+                "roundDirection": "STANDARD"
+            }
+        ],
+        "destinationCurrency": [
+            {
+                "name": "Mexican Nuevo Peso",
+                "iso3Code": "MXN",
+                "symbol": "$",
+                "decimalPlaces": 2,
+                "roundDirection": "STANDARD"
+            }
+        ],
+        "transferMethod": "BANK_ACCOUNT"
+    },
+    {
+        "destinationCountry": {
+            "name": "United States",
+            "iso3Code": "USA",
+            "iso2Code": "US"
+        },
+        "sourceCurrency": [
+            {
+                "name": "US Dollar",
+                "iso3Code": "USD",
+                "symbol": "$",
+                "decimalPlaces": 2,
+                "roundDirection": "STANDARD"
+            }
+        ],
+        "destinationCurrency": [
+            {
+                "name": "Mexican Nuevo Peso",
+                "iso3Code": "MXN",
+                "symbol": "$",
+                "decimalPlaces": 2,
+                "roundDirection": "STANDARD"
+            }
+        ],
+        "transferMethod": "CASH_PICKUP"
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "destinationCountry": {
+            "name": "France",
+            "iso3Code": "FRA",
+            "iso2Code": "FR"
+        },
+        "sourceCurrency": [
+            {
+                "name": "US Dollar",
+                "iso3Code": "USD",
+                "symbol": "$",
+                "decimalPlaces": 2,
+                "roundDirection": "STANDARD"
+            }
+        ],
+        "destinationCurrency": [
+            {
+                "name": "Euro",
+                "iso3Code": "EUR",
+                "symbol": "€",
+                "decimalPlaces": 2,
+                "roundDirection": "STANDARD"
+            }
+        ],
+        "transferMethod": "BANK_ACCOUNT"
+    }
+]
