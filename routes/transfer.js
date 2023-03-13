@@ -45,7 +45,7 @@ router.get('/recipient-fields', (req, res, next) => {
 router.get('/quote', (req, res, next) => {
     let receive = parseInt(req.query.amount)
     if (receive >= 10000) {
-        res.send(
+        res.status(400).send(
             [
                 {
                     "code": "MaxLimitOutOfRange",
@@ -53,16 +53,19 @@ router.get('/quote', (req, res, next) => {
                     "description": "Maximum allowable amount exceeded for this transaction."
                 }
             ]
-        ).status(400);
+        );
+        return
     } else if (receive <= 1000) {
-        res.json([
+        res.status(400).json([
             {
                 "code": "MinLimitOutOfRange",
                 "message": "Minimum amount was not met for this transaction.",
                 "description": "Minimum amount was not met for this transaction."
             }
-        ]).status(400);
+        ]);
+        return
     }
+    
     let currency = "US Dollar"
     let rate = 1
     let fee = 360
