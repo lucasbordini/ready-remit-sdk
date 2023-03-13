@@ -82,7 +82,7 @@ router.get('/quote', (req, res, next) => {
                 }
             },
             "receiveAmount": {
-                "value": receive,
+                "value": parseInt(receive),
                 "currency": {
                     "name": currency,
                     "iso3Code": req.query.dstCurrencyIso3Code,
