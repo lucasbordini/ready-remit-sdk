@@ -18,5 +18,15 @@
         "name": "Mexico",
         "iso3Code": "MEX",
         "iso2Code": "MX"
+    },
+    {
+        "name": "Brazil",
+        "iso3Code": "BRA",
+        "iso2Code": "BR"
+    },
+    {
+        "name": "Japan",
+        "iso3Code": "JPN",
+        "iso2Code": "JP"
     }
 ]

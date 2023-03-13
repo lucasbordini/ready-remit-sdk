@@ -1,0 +1,28 @@
+[
+    {
+        "destinationCountry": {
+            "name": "Japan",
+            "iso3Code": "JPN",
+            "iso2Code": "JP"
+        },
+        "sourceCurrency": [
+            {
+                "name": "US Dollar",
+                "iso3Code": "USD",
+                "symbol": "$",
+                "decimalPlaces": 2,
+                "roundDirection": "STANDARD"
+            }
+        ],
+        "destinationCurrency": [
+            {
+                "name": "Yen",
+                "iso3Code": "JPY",
+                "symbol": "¥",
+                "decimalPlaces": 2,
+                "roundDirection": "STANDARD"
+            }
+        ],
+        "transferMethod": "BANK_ACCOUNT"
+    }
+]

@@ -9,8 +9,16 @@ router.get("/countries", (req, res, next) => {
 router.get('/corridors', (req, res, next) => {
     if (req.query.dstCountryIso3Code.toLowerCase() == "usa") {
         sendJSON('corridor-usa', res);
-    } else {
+    } else if (req.query.dstCountryIso3Code.toLowerCase() == "gbr") {
         sendJSON('corridor-gbr', res);
+    } else if (req.query.dstCountryIso3Code.toLowerCase() == "mex") {
+        sendJSON('corridor-mex', res);
+    } else if (req.query.dstCountryIso3Code.toLowerCase() == "fra") {
+        sendJSON('corridor-fra', res);
+    } else if (req.query.dstCountryIso3Code.toLowerCase() == "jpn") {
+        sendJSON('corridor-jpn', res);
+    } else {
+        sendJSON('corridor-bra', res);
     }
 });
 
@@ -39,12 +47,28 @@ router.get('/quote', (req, res, next) => {
     let currency = "US Dollar"
     let rate = 1
     let fee = 360
-    if (req.query.dstCountryIso3Code != "USA") { 
+    if (req.query.dstCountryIso3Code == "GBR" || req.query.dstCountryIso3Code == "FRA") { 
         receive = receive * 2 
         currency = "Euro"
         rate = 2
         fee = 830
+    } else if (req.query.dstCountryIso3Code == "MEX") {
+        receive = receive * 0.14
+        currency = "Mexican Nuevo Peso"
+        rate = 0.14
+        fee = 432
+    } else if (req.query.dstCountryIso3Code == "JPN") {
+        receive = receive * 0.07 
+        currency = "Yen"
+        rate = 0.07
+        fee = 652
+    } else if (req.query.dstCountryIso3Code == "BRA") {
+        receive = receive * 0.04 
+        currency = "Brazilian Real"
+        rate = 0.04
+        fee = 123
     }
+
     res.json(
         {
             "sendAmount": {
